@@ -81,11 +81,11 @@ const StatePage: React.FC<StatePageProps> = ({ state, onBack }) => {
       case 'landmark':
         return <MapPin size={16} className="text-blue-600" />;
       case 'attraction':
-        return <Camera size={16} className="text-green-600" />;
+        return <Camera size={16} className="text-blue-600" />;
       case 'food':
         return <Utensils size={16} className="text-orange-600" />;
       case 'lodging':
-        return <Bed size={16} className="text-indigo-600" />;
+        return <Bed size={16} className="text-purple-600" />;
       case 'museum':
         return <Home size={16} className="text-amber-600" />;
       case 'ruins':
@@ -100,11 +100,11 @@ const StatePage: React.FC<StatePageProps> = ({ state, onBack }) => {
       case 'landmark':
         return 'bg-blue-100 text-blue-800';
       case 'attraction':
-        return 'bg-green-100 text-green-800';
+        return 'bg-blue-100 text-blue-800';
       case 'food':
         return 'bg-orange-100 text-orange-800';
       case 'lodging':
-        return 'bg-indigo-100 text-indigo-800';
+        return 'bg-purple-100 text-purple-800';
       case 'museum':
         return 'bg-amber-100 text-amber-800';
       case 'ruins':
