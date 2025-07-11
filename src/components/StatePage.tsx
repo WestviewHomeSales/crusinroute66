@@ -81,7 +81,7 @@ const StatePage: React.FC<StatePageProps> = ({ state, onBack }) => {
       case 'landmark':
         return <MapPin size={16} className="text-blue-600" />;
       case 'attraction':
-        return <Camera size={16} className="text-blue-600" />;
+        return <Camera size={16} className="text-green-600" />;
       case 'food':
         return <Utensils size={16} className="text-orange-600" />;
       case 'lodging':
